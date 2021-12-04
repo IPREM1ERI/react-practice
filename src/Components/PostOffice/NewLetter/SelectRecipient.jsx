@@ -1,12 +1,9 @@
 import React from "react"
 
-const SelectRecipient = (props) => {
+const SelectRecipient = () => {
   return (
-    <select required name="recipient" onChange={props.handleChange}>
+    <select required name="recipient">
       <option value="">Select Recipient</option>
-      {props.selectedBox?.boxHolders.map((name, idx) => (
-        <option key={idx} value={name}>{name}</option>
-      ))}
     </select>
   )
 }

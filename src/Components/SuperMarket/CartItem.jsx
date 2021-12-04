@@ -1,15 +1,15 @@
 import React from 'react'
 
-const CartItem = (props) => {
+const CartItem = () => {
 	return (
 		<div className="cart-card">
-			<img src={props.item.image} alt="product icon" />
+			<img src="" alt="product icon" />
 			<span>
-				<p id="product-name">{props.item.name}</p>
-				<p id="product-price">${props.item.price}</p>
-				<p id="product-quantity">Quantity: {props.item.quantity}</p>
+				<p id="product-name"></p>
+				<p id="product-price">$</p>
+				<p id="product-quantity">Quantity:</p>
 			</span>
-			<button onClick={() => props.removeFromCart(props.item)}>X</button>
+			<button>X</button>
 		</div>
 	)
 }

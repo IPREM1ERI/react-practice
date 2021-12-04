@@ -1,10 +1,12 @@
 import React from 'react'
+
+//Assets
 import Day from '../../assets/Day.png'
 import Night from '../../assets/Night.png'
 
-const Landing = ({daytime}) => {
+const Landing = () => {
   return (
-    <div className="landing" style={{ backgroundImage: `url(${daytime ? Day : Night})` }}>
+    <div className="landing" style={{ backgroundImage: `url(${Day})` }}>
       <h1 id="splash-logo">Reactville</h1>
     </div>
   )

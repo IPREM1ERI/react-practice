@@ -1,18 +1,16 @@
-import React, { useState } from "react"
+import React from "react"
 import Button from "./Button"
 import InputPad from './InputPad'
 
 const ControlPanel = (props) => {
-	const [amount, setAmount] = useState('')
-
 	return (
 		<div className="control-panel">
-			<div id="input-display">{amount}</div>
-			<InputPad amount={amount} setAmount={setAmount} />
+			<div id="input-display"></div>
+			<InputPad/>
 			<section>
-				<Button name="DEPOSIT" amount={amount} setAmount={setAmount} handleBalance={props.handleBalance} />
-				<button onClick={() => setAmount('')}>CLEAR</button>
-				<Button name="WITHDRAW" amount={amount} setAmount={setAmount} handleBalance={props.handleBalance} />
+				<Button name="DEPOSIT" />
+				<button>CLEAR</button>
+				<Button name="WITHDRAW"/>
 			</section>
 		</div>
 	)

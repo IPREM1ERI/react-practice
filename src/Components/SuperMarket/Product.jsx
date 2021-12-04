@@ -1,15 +1,15 @@
 import React from 'react'
 
-const Product = (props) => {
+const Product = () => {
   return (
     <div className="product-card">
-      <img src={props.product.image} alt="product icon" />
+      <img src="" alt="product icon" />
       <section>
         <span>
-          <p id="product-name">{props.product.name}</p>
-          <p id="product-price">${props.product.price}</p>
+          <p id="product-name"></p>
+          <p id="product-price">$</p>
         </span>
-        <button onClick={() => props.addToCart(props.product)}>ADD TO CART</button>
+        <button>ADD TO CART</button>
       </section>
     </div>
   )

@@ -1,7 +1,8 @@
 import React from 'react'
-const Wallet = (props) => {
+
+const Wallet = () => {
   return (
-    <p className="display-items">Cash: ${props.cash}</p>
+    <p className="display-items">Cash: $</p>
   )
 }
 

@@ -1,21 +1,21 @@
 import React from "react"
 
-const InputPad = ({ amount, setAmount }) => {
+const InputPad = () => {
 
   return (
     <div className="number-pad">
-      <button onClick={(e) => setAmount(amount + e.target.innerText)}>1</button>
-      <button onClick={(e) => setAmount(amount + e.target.innerText)}>2</button>
-      <button onClick={(e) => setAmount(amount + e.target.innerText)}>3</button>
-      <button onClick={(e) => setAmount(amount + e.target.innerText)}>4</button>
-      <button onClick={(e) => setAmount(amount + e.target.innerText)}>5</button>
-      <button onClick={(e) => setAmount(amount + e.target.innerText)}>6</button>
-      <button onClick={(e) => setAmount(amount + e.target.innerText)}>7</button>
-      <button onClick={(e) => setAmount(amount + e.target.innerText)}>8</button>
-      <button onClick={(e) => setAmount(amount + e.target.innerText)}>9</button>
-      <button onClick={(e) => setAmount(amount + e.target.innerText)}>.</button>
-      <button onClick={(e) => setAmount(amount + e.target.innerText)}>0</button>
-      <button onClick={(e) => setAmount(amount + e.target.innerText)}>00</button>
+      <button>1</button>
+      <button>2</button>
+      <button>3</button>
+      <button>4</button>
+      <button>5</button>
+      <button>6</button>
+      <button>7</button>
+      <button>8</button>
+      <button>9</button>
+      <button>.</button>
+      <button>0</button>
+      <button>00</button>
     </div>
   )
 }

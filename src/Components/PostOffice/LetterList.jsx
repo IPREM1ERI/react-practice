@@ -14,9 +14,7 @@ const LetterList = (props) => {
         </tr>
       </thead>
       <tbody>
-        {props.letterIds.map((id) => (
-          <Letter key={id} id={id} letters={props.letters} markAsRead={props.markAsRead} />
-        ))}
+        Map Letter
       </tbody>
     </table>
   )
