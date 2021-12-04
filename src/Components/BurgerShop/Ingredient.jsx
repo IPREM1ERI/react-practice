@@ -3,7 +3,7 @@ import React from "react"
 const Ingredient = () => {
 	return (
 		<li>
-			Ingredient name here
+			Name of ingredient here
 			<button>+</button>
 			<button>X</button>
 		</li>

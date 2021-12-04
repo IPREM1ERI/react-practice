@@ -6,11 +6,11 @@ const BoxDetails = () => {
       <header>
         <h3>PO Box</h3>
         <select>
-          Boxholder names here
+          Use the map function to display names of boxholders here
         </select>
       </header>
 
-      LetterList here
+      LetterList component here
 
     </section>
   )

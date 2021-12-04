@@ -8,8 +8,8 @@ const Bank = () => {
 				<h1>Bank</h1>
 			</nav>
 			<section>
-				Checking Account
-				Savings Account
+				Account component here (Checking)
+				Account component here (Savings)
 			</section>
 		</div>
 	)

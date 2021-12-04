@@ -4,7 +4,7 @@ const MarketNav = (props) => {
   return (
     <nav>
       <h1>Super Market</h1>
-      CategoryMenu
+      CategoryMenu component here
       <button id="cart-button"></button>
     </nav>
   )

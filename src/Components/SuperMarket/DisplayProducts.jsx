@@ -1,9 +1,10 @@
 import React from 'react'
 
-const DisplayProducts = (props) => {
+const DisplayProducts = () => {
+  
   return (
     <div className="product-list">
-      Selected Products
+      Use the map function and Product component here
     </div>
   )
 }

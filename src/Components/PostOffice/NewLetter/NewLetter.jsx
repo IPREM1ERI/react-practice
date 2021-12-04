@@ -10,8 +10,8 @@ const NewLetter = () => {
 
       <header>
         <h3>New Letter</h3>
-        SelectBox here
-        SelectRecipient here
+        SelectBox component here
+        SelectRecipient component here
       </header>
 
       <section>

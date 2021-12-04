@@ -1,7 +1,6 @@
 import React from "react"
-import Letter from './Letter'
 
-const LetterList = (props) => {
+const LetterList = () => {
   return (
     <table>
       <thead>
@@ -14,7 +13,7 @@ const LetterList = (props) => {
         </tr>
       </thead>
       <tbody>
-        Map Letter
+        Use the map function and Letter component here
       </tbody>
     </table>
   )

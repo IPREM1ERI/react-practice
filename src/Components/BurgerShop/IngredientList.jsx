@@ -3,7 +3,7 @@ import React from "react"
 const IngredientList = (props) => {
 	return (
 		<ul>
-			Mapping here
+			Use the map function and the Ingredient component here
 		</ul>
 	)
 }

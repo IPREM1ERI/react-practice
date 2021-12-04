@@ -9,11 +9,11 @@ const SuperMarket = () => {
   return (
     <div className="super-market">
       <section>
-        MarketNav
-        DisplayProducts
+        MarketNav component here
+        DisplayProducts component here
       </section>
 
-      Cart
+      Cart component here
 
     </div>
   )

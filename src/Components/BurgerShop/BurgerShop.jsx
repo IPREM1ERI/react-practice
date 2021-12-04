@@ -13,8 +13,8 @@ const BurgerShop = () => {
         <button>Clear Order</button>
       </nav>
       <section>
-        IngredientList here
-        BurgerStack here
+        IngredientList component here
+        BurgerStack component here
       </section>
     </div>
   )

@@ -5,11 +5,11 @@ const Cart = () => {
     <div className="cart">
       <h3>Cart</h3>
 
-      Map CartItem
+      Use the map function to manipulate cart state and pass props to CartItem here
 
       <div className="cart-total">
         <p>Total:</p>
-        <p>$ Amount here</p>
+        <p>$ Display Amount Here</p>
       </div>
 
       <button>CHECKOUT</button>

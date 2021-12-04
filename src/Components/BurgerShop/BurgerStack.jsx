@@ -1,9 +1,9 @@
 import React from "react"
 
-const BurgerStack = (props) => {
+const BurgerStack = () => {
   return (
     <ul className="burger-stack">
-      Ingredient here
+      Use the map function and the Ingredient component here
     </ul>
   )
 }

@@ -1,9 +1,9 @@
 import React from "react"
 
-const BoxList = (props) => {
+const BoxList = () => {
   return (
     <section className="po-box-list">
-
+      Use the map function and Link component here
     </section>
   )
 }
