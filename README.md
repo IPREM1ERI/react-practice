@@ -2,8 +2,6 @@
 
 A completed version of Reactville can be found <a href="https://reactville.netlify.app/">here</a>. You can use this as reference for the functionality that you are being asked to implement.
 
----
-
 ## Getting Started
 
 1. Move to a directory of your choice.
@@ -31,8 +29,6 @@ A completed version of Reactville can be found <a href="https://reactville.netli
     ```bash
     npm start
     ```
-
----
 
 ## Contributors
 
