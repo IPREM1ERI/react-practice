@@ -1,4 +1,3 @@
-import React from "react"
 import '../../styles/mail.css'
 
 //Components

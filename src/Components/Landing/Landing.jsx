@@ -1,4 +1,3 @@
-import React from 'react'
 
 //Assets
 import Day from '../../assets/Day.png'
