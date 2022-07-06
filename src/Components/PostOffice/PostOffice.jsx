@@ -1,7 +1,5 @@
 import '../../styles/mail.css'
 
-//Components
-
 //Data & Assets
 import LobbyImg from '../../assets/post-office-lobby.png'
 import { initialPOBoxes, initialLetters } from "../../data/post-data"
