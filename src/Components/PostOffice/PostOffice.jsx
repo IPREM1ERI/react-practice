@@ -1,7 +1,4 @@
-import React from "react"
 import '../../styles/mail.css'
-
-//Components
 
 //Data & Assets
 import LobbyImg from '../../assets/post-office-lobby.png'
