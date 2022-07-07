@@ -4,7 +4,7 @@ import '../../styles/super-market.css'
 import { products } from '../../data/market-data'
 
 const SuperMarket = () => {
-  console.log(products)
+  console.log('Imported product data:::', products)
   return (
     <div className="super-market">
       <section>
