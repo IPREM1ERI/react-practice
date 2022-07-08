@@ -1,5 +1,5 @@
 
-const Ingredient = () => {
+const Ingredient = (props) => {
 	return (
 		<li>
 			Name of ingredient here
